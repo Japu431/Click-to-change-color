@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.botao {
+    justify-content: space-between;
+    height: 50px;
+    background: #9aee1b;
+    font-weight: bold;
+    transition: .5s;
+    width: 250px;
+    border: none;
+}
+
+.botao:hover {
+    background: #57e457;
+    cursor: pointer;
+}
+
