@@ -1,0 +1,56 @@
+body {
+    background: #afafaf;
+}
+
+.container {
+  background-color: red;
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  width: 500px;
+  margin: auto;
+  box-shadow: 5px 5px 10px rgb(41, 36, 36);
+  text-align: center;
+}
+
+.tela {
+  width: 100%;
+  border-radius: 10px;
+  border-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #dbdbdb;
+  height: 70px;
+  text-align: center;
+  margin-bottom: 30px;
+
+  font-size: 25px;
+}
+
+.calc button {
+  width: 15%;
+  height: 40px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.numeros-op {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.numeros-op input {
+  width: 60%;
+  margin-bottom: 20px;
+  height: 30px;
+  font-size: 20px;
+}
+
+#resultado {
+  width: 15rem;
+  height: 40px;
+}

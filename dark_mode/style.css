@@ -1,0 +1,30 @@
+.conteudo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 70vh;
+    padding: 50px;
+    text-align: center;
+}
+
+.toggle {
+    display: flex;
+    justify-content: end;
+    top: 20px;
+    right: 10px;
+}
+
+body.dark {
+    background: rgb(34, 34, 34);
+    color: #fff;
+    transition: 0.8s;
+}
+
+body {
+    transition: 0.8s;
+    background: #fff;
+}
+
+
+

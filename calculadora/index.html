@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">    
+        <h2>Calculadora</h2>
+        <div class="tela"></div>
+        <section class="calc">
+            <button class="operacao" onclick="somar()"> + </button>
+            <button class="operacao" onclick="sub()"> - </button>
+            <button class="operacao" onclick="multi()"> x </button>
+            <button class="operacao" onclick="divisao()"> ÷ </button>
+        </section>
+        <p>Clique na operação para Calcular</p>
+        <div class="numeros-op">
+            <input type="number" name="n1" id="n1" placeholder="Insira o número..." required>
+            <input type="number" name="n2" id="n2" placeholder="Insira o número..." required>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>

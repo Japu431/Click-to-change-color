@@ -1,0 +1,66 @@
+body {
+    background-image: url('./Wallpaper-Form.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 200px;
+    padding-right: inherit;
+    padding-left: inherit;
+}
+.container header {
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 20px;
+    text-align: center;
+}
+
+.container section {
+    width: 500px;
+}
+.container label {
+    margin-top: 200px;
+    font-weight: 500;
+}
+
+.container input {
+    padding: 0;
+    display: flex;
+    margin-top: 5px;
+    flex-direction: column;
+    width: 500px;
+    align-items: center;
+    margin-bottom: 10px;
+    height: 30px;
+}
+
+.container #button {
+    height: 30px;
+    justify-content: center;
+    margin: 0;
+    width: 150px;
+    float: right;
+    cursor: pointer;
+}
+.form {
+    border-radius: 6px;
+    background: #ebe9e9;
+    padding: 30px;
+}
+
+input .file {
+    width: 50px;
+}
+
+.link a {
+    color: black;
+    font-size: 16px;
+}
+
+.link-contato {
+    margin-left: 6.5px;
+}
